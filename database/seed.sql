@@ -1,14 +1,14 @@
--- داده‌های کاملاً آزمایشی برای ارائه کلاسی
+-- داده‌های نمونه سامانه سفارش غذا
 -- Apply once, after schema.sql, to a new database.
 PRAGMA foreign_keys = ON;
 BEGIN TRANSACTION;
 
 INSERT INTO users (id, full_name, phone, password_hash, role, is_active) VALUES
-    (1, 'مدیر نمونه', '09120000001', 'pbkdf2_sha256$600000$faa173c298548fa2cb29478a$R/CG95uVW7Z1O/7j4CDeJQ8fGO0czpk6aqq7udeisZk=', 'admin', 1),
-    (2, 'مسئول رستوران بهار', '09120000002', 'pbkdf2_sha256$600000$98b81f4fe47f16605b69462c$SPhI9UrXLgcr7bivZO8hKiJj8YVHbpP+x2XR1HWMvHQ=', 'restaurant_manager', 1),
-    (3, 'مسئول آشپزخانه خانه', '09120000003', 'pbkdf2_sha256$600000$f2eefe1a1e08a1dd5fd441b3$1+Diw7MUF33pbIr1luZBUktAl08K5/H6WOXJnZFj+Wc=', 'restaurant_manager', 1),
-    (4, 'علی نمونه', '09120000004', 'pbkdf2_sha256$600000$e461b0c5c15ae410d0ee24f4$ciFSvvvT6w474cbeoYZg/RT4mb3TaFVs6S1B9+UZkOs=', 'customer', 1),
-    (5, 'سارا نمونه', '09120000005', 'pbkdf2_sha256$600000$ad0f0210e47d8caf4a42d4c9$9a7QgVENLgGPP6YYLUjVbZlyMkosFZKIk62KZ33Mk2g=', 'customer', 1);
+    (1, 'مدیر نمونه', '09120000001', 'pbkdf2_sha256$600000$faa173c298548fa2cb29478a$WhNAA2UVPSTi99kK0RnuDJdANldEyH+Gh+YZbqfYdrE=', 'admin', 1),
+    (2, 'مسئول رستوران بهار', '09120000002', 'pbkdf2_sha256$600000$98b81f4fe47f16605b69462c$G4Z+cIqCECBC32hu8tD/okq7u5ROOf471T2DrmyKFjQ=', 'restaurant_manager', 1),
+    (3, 'مسئول آشپزخانه خانه', '09120000003', 'pbkdf2_sha256$600000$f2eefe1a1e08a1dd5fd441b3$gpuyod9Jwi0tc09rNw2xYSZ9fkoMqh62c7i1p76b1KU=', 'restaurant_manager', 1),
+    (4, 'علی نمونه', '09120000004', 'pbkdf2_sha256$600000$e461b0c5c15ae410d0ee24f4$rK1CXJhuCoay+pk5iOZlvrYfAKUFNs5f10NQ1RLVWOQ=', 'customer', 1),
+    (5, 'سارا نمونه', '09120000005', 'pbkdf2_sha256$600000$ad0f0210e47d8caf4a42d4c9$387osgCimGqTHEiKPMYWg4VISohM8zymw/2iOiszJfg=', 'customer', 1);
 
 INSERT INTO restaurants (id, manager_id, name, delivery_fee, is_active) VALUES
     (1, 2, 'رستوران بهار', 30000, 1),
