@@ -1,0 +1,22 @@
+@startuml
+left to right direction
+skinparam defaultFontName Noto Naskh Arabic
+skinparam shadowing false
+actor "مسئول رستوران" as Manager
+rectangle "سامانه سفارش غذا" {
+  usecase "ورود به پنل" as R_LOGIN
+  usecase "مدیریت منو" as R_MENU
+  usecase "مشاهده سفارش‌های رستوران" as R_ORDERS
+  usecase "تغییر وضعیت سفارش" as R_STATUS
+}
+Manager -- R_LOGIN
+Manager -- R_MENU
+Manager -- R_ORDERS
+Manager -- R_STATUS
+note right of R_MENU
+افزودن غذا، ویرایش و تغییر وضعیت موجود بودن
+end note
+note right of R_STATUS
+آماده‌سازی، ارسال و تحویل
+end note
+@enduml

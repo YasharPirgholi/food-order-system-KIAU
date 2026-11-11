@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1060" viewBox="0 0 1600 1060">
+<rect width="100%" height="100%" fill="white"/>
+<text x="800" y="45" fill="#111111" font-family="Noto Naskh Arabic" font-size="43" font-weight="bold" text-anchor="middle" dominant-baseline="middle" direction="rtl" unicode-bidi="plaintext">موارد کاربرد مشتری</text>
+<rect x="290" y="110" width="1260" height="860" fill="none" stroke="#314557" stroke-width="3"/>
+<text x="920" y="143" fill="#182735" font-family="Noto Naskh Arabic" font-size="30" font-weight="bold" text-anchor="middle" dominant-baseline="middle" direction="rtl" unicode-bidi="plaintext">سامانه سفارش غذا</text>
+<circle cx="125" cy="426" r="21" fill="none" stroke="#182735" stroke-width="4"/>
+<polyline points="125,447 125,531" fill="none" stroke="#182735" stroke-width="4"/>
+<polyline points="83,478 167,478" fill="none" stroke="#182735" stroke-width="4"/>
+<polyline points="125,531 86,587" fill="none" stroke="#182735" stroke-width="4"/>
+<polyline points="125,531 164,587" fill="none" stroke="#182735" stroke-width="4"/>
+<text x="125" y="625" fill="#182735" font-family="Noto Naskh Arabic" font-size="33" font-weight="bold" text-anchor="middle" dominant-baseline="middle" direction="rtl" unicode-bidi="plaintext">مشتری</text>
+<polyline points="167,478 380,200" fill="none" stroke="#445568" stroke-width="2"/>
+<polyline points="167,478 380,300" fill="none" stroke="#445568" stroke-width="2"/>
+<polyline points="167,478 380,400" fill="none" stroke="#445568" stroke-width="2"/>
+<polyline points="167,478 380,500" fill="none" stroke="#445568" stroke-width="2"/>
+<polyline points="167,478 380,600" fill="none" stroke="#445568" stroke-width="2"/>
+<polyline points="167,478 380,700" fill="none" stroke="#445568" stroke-width="2"/>
+<polyline points="167,478 380,800" fill="none" stroke="#445568" stroke-width="2"/>
+<polyline points="880,500 1020,455" fill="none" stroke="#445568" stroke-width="2" stroke-dasharray="8 7"/>
+<polyline points="1008.8323753781194,465.0141979361688 1020,455 1005.0890221167501,453.36821001190884" fill="none" stroke="#445568" stroke-width="2"/>
+<polyline points="880,500 1020,550" fill="none" stroke="#445568" stroke-width="2" stroke-dasharray="8 7"/>
+<polyline points="1005.0444179141068,551.1535009632039 1020,550 1009.1587583627186,539.6333477070909" fill="none" stroke="#445568" stroke-width="2"/>
+<polyline points="880,800 955,800 955,700 880,700" fill="none" stroke="#445568" stroke-width="2" stroke-dasharray="8 7"/>
+<polyline points="893.6963341046846,693.8835932041064 880,700 893.6963341046846,706.1164067958936" fill="none" stroke="#445568" stroke-width="2"/>
+<ellipse cx="630" cy="200" rx="250" ry="39" fill="#F3F7FB" stroke="#344A61" stroke-width="2"/>
+<text x="630" y="200" fill="#182735" font-family="Noto Naskh Arabic" font-size="32" font-weight="normal" text-anchor="middle" dominant-baseline="middle" direction="rtl" unicode-bidi="plaintext">ثبت‌نام و ورود</text>
+<ellipse cx="630" cy="300" rx="250" ry="39" fill="#F3F7FB" stroke="#344A61" stroke-width="2"/>
+<text x="630" y="300" fill="#182735" font-family="Noto Naskh Arabic" font-size="32" font-weight="normal" text-anchor="middle" dominant-baseline="middle" direction="rtl" unicode-bidi="plaintext">مشاهده رستوران‌ها و منو</text>
+<ellipse cx="630" cy="400" rx="250" ry="39" fill="#F3F7FB" stroke="#344A61" stroke-width="2"/>
+<text x="630" y="400" fill="#182735" font-family="Noto Naskh Arabic" font-size="32" font-weight="normal" text-anchor="middle" dominant-baseline="middle" direction="rtl" unicode-bidi="plaintext">مدیریت سبد خرید</text>
+<ellipse cx="630" cy="500" rx="250" ry="39" fill="#F3F7FB" stroke="#344A61" stroke-width="2"/>
+<text x="630" y="500" fill="#182735" font-family="Noto Naskh Arabic" font-size="32" font-weight="normal" text-anchor="middle" dominant-baseline="middle" direction="rtl" unicode-bidi="plaintext">ثبت اولیه سفارش</text>
+<ellipse cx="630" cy="600" rx="250" ry="39" fill="#F3F7FB" stroke="#344A61" stroke-width="2"/>
+<text x="630" y="600" fill="#182735" font-family="Noto Naskh Arabic" font-size="32" font-weight="normal" text-anchor="middle" dominant-baseline="middle" direction="rtl" unicode-bidi="plaintext">پرداخت آزمایشی</text>
+<ellipse cx="630" cy="700" rx="250" ry="39" fill="#F3F7FB" stroke="#344A61" stroke-width="2"/>
+<text x="630" y="700" fill="#182735" font-family="Noto Naskh Arabic" font-size="32" font-weight="normal" text-anchor="middle" dominant-baseline="middle" direction="rtl" unicode-bidi="plaintext">پیگیری سفارش‌های خود</text>
+<ellipse cx="630" cy="800" rx="250" ry="39" fill="#F3F7FB" stroke="#344A61" stroke-width="2"/>
+<text x="630" y="800" fill="#182735" font-family="Noto Naskh Arabic" font-size="32" font-weight="normal" text-anchor="middle" dominant-baseline="middle" direction="rtl" unicode-bidi="plaintext">لغو سفارش</text>
+<ellipse cx="1280" cy="455" rx="260" ry="39" fill="#F3F7FB" stroke="#344A61" stroke-width="2"/>
+<text x="1280" y="455" fill="#182735" font-family="Noto Naskh Arabic" font-size="32" font-weight="normal" text-anchor="middle" dominant-baseline="middle" direction="rtl" unicode-bidi="plaintext">تکمیل اطلاعات تحویل</text>
+<ellipse cx="1280" cy="550" rx="260" ry="39" fill="#F3F7FB" stroke="#344A61" stroke-width="2"/>
+<text x="1280" y="550" fill="#182735" font-family="Noto Naskh Arabic" font-size="32" font-weight="normal" text-anchor="middle" dominant-baseline="middle" direction="rtl" unicode-bidi="plaintext">محاسبه مبلغ نهایی</text>
+<text x="950" y="445" fill="#182735" font-family="DejaVu Sans" font-size="23" font-weight="normal" text-anchor="middle" dominant-baseline="middle" direction="ltr" unicode-bidi="plaintext">«include»</text>
+<text x="950" y="560" fill="#182735" font-family="DejaVu Sans" font-size="23" font-weight="normal" text-anchor="middle" dominant-baseline="middle" direction="ltr" unicode-bidi="plaintext">«include»</text>
+<text x="1045" y="750" fill="#182735" font-family="DejaVu Sans" font-size="23" font-weight="normal" text-anchor="middle" dominant-baseline="middle" direction="ltr" unicode-bidi="plaintext">«extend»</text>
+<text x="920" y="914" fill="#182735" font-family="Noto Naskh Arabic" font-size="29" font-weight="normal" text-anchor="middle" dominant-baseline="middle" direction="rtl" unicode-bidi="plaintext">لغو فقط برای سفارش در انتظار پرداخت مجاز است</text>
+</svg>

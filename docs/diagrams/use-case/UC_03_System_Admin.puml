@@ -1,0 +1,20 @@
+@startuml
+left to right direction
+skinparam defaultFontName Noto Naskh Arabic
+skinparam shadowing false
+actor "مدیر سیستم" as Admin
+rectangle "سامانه سفارش غذا" {
+  usecase "ورود به پنل" as A_LOGIN
+  usecase "مدیریت رستوران‌ها" as A_RESTAURANTS
+  usecase "مدیریت حساب‌های کاربری" as A_USERS
+  usecase "مشاهده گزارش ساده" as A_REPORT
+  usecase "مشاهده آمار سفارش‌ها" as A_STATS
+  usecase "مشاهده مجموع پرداخت‌های موفق" as A_TOTAL
+}
+Admin -- A_LOGIN
+Admin -- A_RESTAURANTS
+Admin -- A_USERS
+Admin -- A_REPORT
+A_REPORT ..> A_STATS : <<include>>
+A_REPORT ..> A_TOTAL : <<include>>
+@enduml

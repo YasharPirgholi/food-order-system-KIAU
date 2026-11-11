@@ -1,0 +1,58 @@
+erDiagram
+    users ||--o| restaurants : manages
+    users ||--o{ orders : places
+    restaurants ||--o{ foods : offers
+    restaurants ||--o{ orders : receives
+    orders ||--|{ order_items : contains
+    foods ||--o{ order_items : ordered
+    orders ||--o{ payments : attempts
+
+    users {
+        INTEGER id PK
+        TEXT full_name
+        TEXT phone UK
+        TEXT password_hash
+        TEXT role
+        INTEGER is_active
+    }
+    restaurants {
+        INTEGER id PK
+        INTEGER manager_id FK, UK
+        TEXT name
+        INTEGER delivery_fee
+        INTEGER is_active
+    }
+    foods {
+        INTEGER id PK
+        INTEGER restaurant_id FK
+        TEXT name
+        TEXT description
+        INTEGER price
+        INTEGER is_available
+    }
+    orders {
+        INTEGER id PK
+        INTEGER customer_id FK
+        INTEGER restaurant_id FK
+        TEXT status
+        TEXT delivery_address
+        TEXT receiver_phone
+        INTEGER delivery_fee
+        INTEGER total_amount
+        TEXT created_at
+    }
+    order_items {
+        INTEGER id PK
+        INTEGER order_id FK
+        INTEGER food_id FK
+        TEXT food_name
+        INTEGER quantity
+        INTEGER unit_price
+    }
+    payments {
+        INTEGER id PK
+        INTEGER order_id FK
+        INTEGER amount
+        TEXT status
+        TEXT created_at
+    }

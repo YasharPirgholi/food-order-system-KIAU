@@ -1,0 +1,30 @@
+@startuml
+left to right direction
+skinparam defaultFontName Noto Naskh Arabic
+skinparam shadowing false
+actor "مشتری" as Customer
+rectangle "سامانه سفارش غذا" {
+  usecase "ثبت‌نام و ورود" as C_ACCOUNT
+  usecase "مشاهده رستوران‌ها و منو" as C_MENU
+  usecase "مدیریت سبد خرید" as C_CART
+  usecase "ثبت اولیه سفارش" as C_ORDER
+  usecase "پرداخت آزمایشی" as C_PAY
+  usecase "پیگیری سفارش‌های خود" as C_TRACK
+  usecase "لغو سفارش" as C_CANCEL
+  usecase "تکمیل اطلاعات تحویل" as C_ADDRESS
+  usecase "محاسبه مبلغ نهایی" as C_TOTAL
+}
+Customer -- C_ACCOUNT
+Customer -- C_MENU
+Customer -- C_CART
+Customer -- C_ORDER
+Customer -- C_PAY
+Customer -- C_TRACK
+Customer -- C_CANCEL
+C_ORDER ..> C_ADDRESS : <<include>>
+C_ORDER ..> C_TOTAL : <<include>>
+C_CANCEL ..> C_TRACK : <<extend>>
+note right of C_CANCEL
+فقط در وضعیت در انتظار پرداخت
+end note
+@enduml
