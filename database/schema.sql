@@ -1,4 +1,4 @@
--- سامانه سفارش غذا — ساختار ساده دانشجویی
+-- سامانه سفارش غذا — ساختار دیتابیس
 -- SQLite 3.37 or newer. All money values are whole Tomans.
 -- Run this file once on a new, empty database.
 PRAGMA foreign_keys = ON;
